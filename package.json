@@ -3,8 +3,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "heroku-postbuild": "npm run build"
+    "lint": "next lint"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -21,6 +20,9 @@
   "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "engines": {
+    "node": "14.16.0"
   },
   "devDependencies": {},
   "author": "",
