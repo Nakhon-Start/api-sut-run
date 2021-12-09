@@ -23,7 +23,8 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "14.16.0"
+    "node": "14.16.0",
+    "npm": "8.0.0"
   },
   "devDependencies": {},
   "author": "",
