@@ -1,7 +1,0 @@
-const bearerHearder = req.headers.authorization;
-  const v = Verify(bearerHearder)
-  if(!v){
-    return res.status(401).json("Unauthenticated");
-  }else {
-    
-  }
